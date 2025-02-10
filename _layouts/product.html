@@ -61,9 +61,9 @@ layout: default
                 data-item-price="{{ page.price }}"
                 data-item-url="{{ page.url | absolute_url }}"
                 data-item-image="{{ page.image | default: '/assets/images/default-product.jpg' }}"
-                data-item-color="{{ page.colors | first }}"   <!-- Impostiamo il primo colore come default -->
-                data-item-scent="{{ page.scents | first }}"   <!-- Impostiamo la prima profumazione come default -->
-                data-item-custom1-name="Colore"  <!-- Varianti personalizzate per Snipcart -->
+                data-item-color="{{ page.colors | first }}"  
+                data-item-scent="{{ page.scents | first }}" 
+                data-item-custom1-name="Colore" 
                 data-item-custom1-value="{{ page.colors | first }}"
                 data-item-custom2-name="Profumazione"
                 data-item-custom2-value="{{ page.scents | first }}">
