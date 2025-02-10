@@ -62,11 +62,7 @@ layout: default
                 data-item-url="{{ page.url | absolute_url }}"
                 data-item-image="{{ page.image | default: '/assets/images/default-product.jpg' }}"
                 data-item-color="{{ page.colors | first }}"   <!-- Impostiamo il primo colore come default -->
-                data-item-scent="{{ page.scents | first }}"   <!-- Impostiamo la prima profumazione come default -->
-                data-item-custom1-name="Colore"  <!-- Varianti personalizzate per Snipcart -->
-                data-item-custom1-value="{{ page.colors | first }}"
-                data-item-custom2-name="Profumazione"
-                data-item-custom2-value="{{ page.scents | first }}">
+                data-item-scent="{{ page.scents | first }}"> <!-- Impostiamo la prima profumazione come default -->
                 <i class="fa-solid fa-cart-plus me-2"></i> Aggiungi al Carrello
             </button>
         </div>
@@ -82,7 +78,6 @@ layout: default
   document.getElementById('color-select').addEventListener('change', function() {
     var color = this.value;
     document.querySelector('.snipcart-add-item').setAttribute('data-item-color', color);
-    document.querySelector('.snipcart-add-item').setAttribute('data-item-custom1-value', color); // Varianti personalizzate
     updateButtonLabel();
   });
 
@@ -90,7 +85,6 @@ layout: default
   document.getElementById('scent-select').addEventListener('change', function() {
     var scent = this.value;
     document.querySelector('.snipcart-add-item').setAttribute('data-item-scent', scent);
-    document.querySelector('.snipcart-add-item').setAttribute('data-item-custom2-value', scent); // Varianti personalizzate
     updateButtonLabel();
   });
 
