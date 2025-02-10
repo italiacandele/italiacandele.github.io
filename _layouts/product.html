@@ -76,11 +76,35 @@ layout: default
 <script>
   // Quando cambia la selezione del colore
   document.getElementById('color-select').addEventListener('change', function() {
-    document.querySelector('.snipcart-add-item').setAttribute('data-item-color', this.value);
+    var color = this.value;
+    document.querySelector('.snipcart-add-item').setAttribute('data-item-color', color);
+    updateButtonLabel();
   });
 
   // Quando cambia la selezione della profumazione
   document.getElementById('scent-select').addEventListener('change', function() {
-    document.querySelector('.snipcart-add-item').setAttribute('data-item-scent', this.value);
+    var scent = this.value;
+    document.querySelector('.snipcart-add-item').setAttribute('data-item-scent', scent);
+    updateButtonLabel();
   });
+
+  // Funzione per aggiornare il testo del bottone
+  function updateButtonLabel() {
+    var color = document.getElementById('color-select').value;
+    var scent = document.getElementById('scent-select').value;
+    var label = "Aggiungi al Carrello";
+
+    if (color && scent) {
+      label = "Aggiungi " + color + " " + scent + " al Carrello";
+    } else if (color) {
+      label = "Aggiungi " + color + " al Carrello";
+    } else if (scent) {
+      label = "Aggiungi " + scent + " al Carrello";
+    }
+
+    document.querySelector('.snipcart-add-item').textContent = label;
+  }
+
+  // Inizializzazione del testo del bottone con i valori di default
+  updateButtonLabel();
 </script>
