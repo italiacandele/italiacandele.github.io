@@ -320,4 +320,71 @@ Conclusione e Prossimi Passi
 
 Vuoi che ti aiuti a creare le creatività con copy e suggerimenti grafici più dettagliati?
 
+Calcolo del Prezzo di Vendita di una Candela Profumata per Garantire il Profitto
 
+Per determinare il prezzo ideale di una candela profumata, consideriamo i seguenti costi:
+	1.	Costi di produzione (materie prime, packaging)
+	2.	Costi di marketing (advertising, influencer, foto/video)
+	3.	Costi operativi (spedizione, magazzino, piattaforma e-commerce)
+	4.	Margine di profitto desiderato
+
+1. Costi di Produzione (Materiali e Packaging)
+
+Voce di Costo	Costo Unitario (€)
+Cera di soia (200-250g per candela)	1,50 - 2,00
+Stoppino in cotone o legno	0,20 - 0,50
+Profumazione (oli essenziali o fragranze)	0,50 - 1,50
+Coloranti naturali (facoltativo)	0,10 - 0,30
+Vaso/contenitore in vetro o ceramica	1,50 - 3,00
+Coperchio (se incluso)	0,50 - 1,00
+Etichetta e adesivi	0,30 - 0,70
+Scatola packaging + protezione	1,00 - 2,00
+Totale Produzione	5,60 - 11,00 €
+
+💡 Costo medio stimato: 8 € per candela
+
+2. Costi di Marketing
+
+Basandoci sul budget di 1.000 €/mese per ads, stimiamo:
+	•	CPA (Costo per Acquisizione Cliente): 25-30 €
+	•	Tasso di conversione: 3-5%
+	•	Costo pubblicitario per candela venduta: 8 - 12 €
+
+Se il marketing è organico (Instagram, TikTok, passaparola), il costo si riduce.
+
+3. Costi Operativi
+
+Voce di Costo	Costo Unitario (€)
+Spedizione (corriere standard)	5 - 7 €
+Commissioni piattaforma (Stripe, PayPal, Shopify, Snipcart)	1,50 - 3,00 €
+Gestione magazzino / imballaggio	1 - 2 €
+Totale Operativo	7,50 - 12 €
+
+💡 Costo medio stimato: 10 € per candela
+
+4. Prezzo di Vendita Ottimale
+
+💰 Costo totale per candela venduta (produzione + marketing + operativi):
+	•	Basso: 20,50 €
+	•	Alto: 33,00 €
+
+Prezzo di vendita consigliato per avere un buon margine di profitto
+
+Strategia Prezzo	Prezzo di Vendita (€)	Margine Netto (€)	Ricarico (%)
+Prezzo base (minimo per non perdere soldi)	34,90 €	4 - 8 €	50-70%
+Prezzo standard (buon margine)	39,90 €	8 - 14 €	100%
+Prezzo premium (packaging più curato, esperienza di lusso)	49,90 €	16 - 25 €	150%
+
+🔹 Consiglio: Un prezzo tra 39,90 - 49,90 € è il più adatto per un prodotto di fascia media-alta con una buona percezione di valore.
+
+🔹 Strategia di pricing:
+	•	Base (29,90-34,90 €): Solo in fase di lancio o promozioni.
+	•	Standard (39,90 €): Prezzo ideale per il mercato di riferimento.
+	•	Premium (49,90 €): Edizioni limitate, packaging di lusso, collaborazioni con influencer.
+
+Conclusione
+	•	Il prezzo minimo per non perdere soldi è 34,90 €.
+	•	Il prezzo ideale per un buon margine è 39,90 - 49,90 €.
+	•	Se si vogliono scalare le vendite con ads, serve un margine sufficiente per coprire i costi di acquisizione.
+
+📌 Prossimi passi: Vuoi ottimizzare i costi o definire una strategia di upsell (es. bundle di più candele)?
