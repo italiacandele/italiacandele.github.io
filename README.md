@@ -388,3 +388,12 @@ Conclusione
 	•	Se si vogliono scalare le vendite con ads, serve un margine sufficiente per coprire i costi di acquisizione.
 
 📌 Prossimi passi: Vuoi ottimizzare i costi o definire una strategia di upsell (es. bundle di più candele)?
+
+
+
+
+
+
+https://www.maisonkeri.com/products/teddy-heart?variant=50054505595210&country=IT&currency=EUR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gbraid=0AAAAA-mrJdjTsg6lLnd1gFV3-3ng-81m8&gclid=CjwKCAiA5Ka9BhB5EiwA1ZVtvH6kK4_oP8oNhQjUfF51Q9Z7gMLmMyvmXuXSKAX-QKeztFCGFedoaRoC4NgQAvD_BwE
+
+
