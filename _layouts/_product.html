@@ -56,17 +56,13 @@ layout: default
 
             <!-- Pulsante Aggiungi al Carrello Snipcart (non cliccabile se non disponibile) -->
             <button class="btn btn-custom-primary snipcart-add-item mt-3 {% if page.availability == false %}disabled{% endif %}"
-            data-item-id="{{ page.sku }}"
-            data-item-name="{{ page.title }}"
-            data-item-price="{{ page.price }}"
-            data-item-url="{{ page.url | absolute_url }}"
-            data-item-image="{{ page.image | default: '/assets/images/default-product.jpg' }}"
-            {% if page.colors %}data-item-color="{{ page.colors | join: ',' }}"{% endif %}
-            {% if page.scents %}data-item-scent="{{ page.scents | join: ',' }}"{% endif %}
-            {% if page.availability == false %}disabled{% endif %}>
-            <i class="fa-solid fa-cart-plus me-2"></i> Aggiungi al Carrello
-        </button>
-        
+                data-item-id="{{ page.sku }}"
+                data-item-name="{{ page.title }}"
+                data-item-price="{{ page.price }}"
+                data-item-url="{{ page.url | absolute_url }}"
+                data-item-image="{{ page.image | default: '/assets/images/default-product.jpg' }}">
+                <i class="fa-solid fa-cart-plus me-2"></i> Aggiungi al Carrello
+            </button>
         </div>
     </div>
 </div>
