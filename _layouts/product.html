@@ -54,21 +54,33 @@ layout: default
                 {% if page.availability %}Disponibile{% else %}Non disponibile{% endif %}
             </p>
 
-            <!-- Pulsante Aggiungi al Carrello Snipcart (non cliccabile se non disponibile) -->
+            <!-- Pulsante Aggiungi al Carrello Snipcart -->
             <button class="btn btn-custom-primary snipcart-add-item mt-3 {% if page.availability == false %}disabled{% endif %}"
-            data-item-id="{{ page.sku }}"
-            data-item-name="{{ page.title }}"
-            data-item-price="{{ page.price }}"
-            data-item-url="{{ page.url | absolute_url }}"
-            data-item-image="{{ page.image | default: '/assets/images/default-product.jpg' }}"
-            {% if page.colors %}data-item-color="{{ page.colors | join: ',' }}"{% endif %}
-            {% if page.scents %}data-item-scent="{{ page.scents | join: ',' }}"{% endif %}
-            {% if page.availability == false %}disabled{% endif %}>
-            <i class="fa-solid fa-cart-plus me-2"></i> Aggiungi al Carrello
-        </button>
-        
+                data-item-id="{{ page.sku }}"
+                data-item-name="{{ page.title }}"
+                data-item-price="{{ page.price }}"
+                data-item-url="{{ page.url | absolute_url }}"
+                data-item-image="{{ page.image | default: '/assets/images/default-product.jpg' }}"
+                data-item-color="{{ page.colors | first }}"   <!-- Impostiamo il primo colore come default -->
+                data-item-scent="{{ page.scents | first }}"> <!-- Impostiamo la prima profumazione come default -->
+                <i class="fa-solid fa-cart-plus me-2"></i> Aggiungi al Carrello
+            </button>
         </div>
     </div>
 </div>
-    <!-- Spaziatore per separare il footer -->
-    <div class="my-5"></div>
+
+<!-- Spaziatore per separare il footer -->
+<div class="my-5"></div>
+
+<!-- Aggiungi JavaScript per gestire la selezione delle varianti -->
+<script>
+  // Quando cambia la selezione del colore
+  document.getElementById('color-select').addEventListener('change', function() {
+    document.querySelector('.snipcart-add-item').setAttribute('data-item-color', this.value);
+  });
+
+  // Quando cambia la selezione della profumazione
+  document.getElementById('scent-select').addEventListener('change', function() {
+    document.querySelector('.snipcart-add-item').setAttribute('data-item-scent', this.value);
+  });
+</script>
