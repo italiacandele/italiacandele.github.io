@@ -75,3 +75,62 @@ git pull origin main
 ```
 
 Sostituisci `main` con il nome del branch principale se utilizzi un altro branch (es. `master`).
+
+Stimare i costi di produzione, packaging e marketing per un e-commerce di candele profumate in cera di soia richiede di considerare diverse variabili. Ti fornirò una stima basata su costi medi e un prezzo di vendita suggerito per mantenere una buona marginalità.
+
+1. Costi di Produzione per Candela
+
+(Stima per una candela da 200g in una forma creativa)
+
+Voce	Costo stimato (€ per unità)
+Cera di soia (200g)	1,00 – 1,50
+Olio essenziale/profumo	0,50 – 1,50
+Stoppino in cotone	0,20 – 0,50
+Coloranti (opzionale)	0,10 – 0,30
+Stampo in silicone (ammortizzato)	0,30 – 1,00
+Lavorazione e manodopera	1,00 – 2,00
+Totale produzione	3,10 – 6,80
+
+2. Costi di Packaging per Candela
+
+(Considerando un packaging curato per e-commerce)
+
+Voce	Costo stimato (€ per unità)
+Contenitore (vetro, latta, o plastica riciclata)	0,80 – 2,00
+Etichetta personalizzata	0,30 – 1,00
+Scatola regalo/cartone	0,50 – 1,50
+Filler (paglia, carta, ecc.)	0,20 – 0,50
+Totale packaging	1,80 – 5,00
+
+3. Costi di Marketing e Logistica
+
+(Distribuiti su un volume di produzione)
+
+Voce	Costo stimato (€ per unità)
+Fotografia prodotto	0,30 – 1,00
+Pubblicità online (Instagram, Google Ads)	2,00 – 5,00
+Spedizione media (passata al cliente o inclusa)	3,00 – 7,00
+Piattaforma e-commerce (commissioni, hosting)	1,00 – 3,00
+Totale marketing/logistica	6,30 – 16,00
+
+4. Prezzo Finale e Margine di Vendita
+
+Costo totale stimato per candela
+	•	Minimo: 11,20 €
+	•	Massimo: 27,80 €
+
+Prezzo di vendita suggerito
+	•	Con un margine del 50%: 16,80 – 41,70 €
+	•	Con un margine del 100%: 22,40 – 55,60 €
+
+Prezzo medio consigliato: 25 – 40 € per candela, in base alla qualità percepita e al posizionamento del brand.
+
+Se punti a un mercato premium con packaging di lusso e profumi pregiati, il prezzo può arrivare anche a 50-60 € a candela.
+
+Strategia di Prezzo e Consigli
+	1.	Offri opzioni bundle: Es. set da 3 candele a 70-90 € per aumentare il valore medio dell’ordine.
+	2.	Posizionamento Premium: Foto professionali, storytelling del brand e ingredienti di qualità aiutano a giustificare prezzi più alti.
+	3.	Strategia di spedizione: Considera la spedizione gratuita sopra un certo importo (es. sopra i 50 €).
+	4.	Cross-selling: Offri accessori (accendini eleganti, piattini decorativi, ecc.) per aumentare il carrello medio.
+
+Ti servono dati più precisi in base a un fornitore specifico?
