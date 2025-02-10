@@ -1,0 +1,263 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+# SEO
+title: ItaliaCandele Candle - Candele Profumate Artigianali
+description: Scopri le candele profumate artigianali di ItaliaCandele Candle, perfette per ogni occasione.
+# permalink: /about/ to manage permalinks
+# url:
+# og_image:
+# SCRIPTING
+css: /assets/css/custom-index.css
+# head-script: frontmatter to add some head js (ex. head-script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
+# script: frontmatter to add some head js (ex. script:<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>)
+---
+<!-- HERO SECTION HOME ItaliaCandele -->
+<div class="hero-100hv position-relative">
+    {% picture /index/slider_ItaliaCandele_dsvisualdesigner-1.jpg --preset default --img class="hero-bg img-fluid" alt="Sfondo connessioni veloci ItaliaCandele" %}
+    <div class="container col-xxl-8 px-4 py-5 position-relative">
+        <div class="row align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-8">
+                <h1 class="display-5 fw-bold text-white lh-1 mb-5">Niente più connessioni lente, passa a ItaliaCandele</h1>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a href="/tariffe/" class="btn btn-custom-secondary btn-lg px-4 me-md-2">
+                      Scopri le offerte <i class="fa-solid fa-thumbtack"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <!-- Altra colonna vuota -->
+            </div>
+        </div>
+    </div>
+</div>
+
+  <div class="container px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <p>ItaliaCandele, il leader nella connessione internet ad alta velocità e affidabile. Offriamo connessioni fino a 100Mbps e copriamo anche le zone rurali. Il nostro team dedicato è pronto ad assisterti.</p>
+        {% picture /index/about_home_ItaliaCandele_dsvisualdesigner.png --preset default --img class="d-block mx-lg-auto img-fluid"  alt="Descrizione immagine" %}
+      </div>
+      <div class="col-lg-6">
+        <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Velocità oltre i confini. La connessione che non si ferma mai</h2>
+        <div class="album py-5">
+
+
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img
+                    src="/assets/images/index/wifi-1.png"
+                    class="card-img-top mx-auto mt-3"
+                    alt="Connessione veloce e affidabile"
+                    style="width: 70px; height: auto;">
+                    <div class="card-body">
+                      <h4>Connessione veloce e affidabile</h4>
+                      <p class="card-text">Goditi una connessione internet ad alta velocità fino a 100Mbps, senza interruzioni o rallentamenti.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img
+                    src="/assets/images/index/antenna-1.png"
+                    class="card-img-top mx-auto mt-3"
+                    alt="Connessione veloce e affidabile"
+                    style="width: 70px; height: auto;">
+                    <div class="card-body">
+                      <h4>Copertura nelle zone rurali</h4>
+                      <p class="card-text">Portiamo la connessione veloce anche nelle aree rurali, superando le limitazioni delle connessioni ADSL.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img
+                    src="/assets/images/index/customer-service.png"
+                    class="card-img-top mx-auto mt-3"
+                    alt="Connessione veloce e affidabile"
+                    style="width: 70px; height: auto;">
+                    <div class="card-body">
+                      <h4>Servizio clienti di alta qualità</h4>
+                      <p class="card-text">Il nostro team dedicato è pronto ad assisterti e risolvere qualsiasi problema o domanda tu possa avere.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img
+                    src="/assets/images/index/job-satisfaction.png"
+                    class="card-img-top mx-auto mt-3"
+                    alt="Connessione veloce e affidabile"
+                    style="width: 70px; height: auto;">
+                    <div class="card-body">
+                      <h4>Flessibilità di Piani </h4> <br/>
+                      <p class="card-text">Offriamo una gamma di piani e opzioni di abbonamento per adattarsi alle tue esigenze e al tuo budget.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- PLANS SECTION HOME ItaliaCandele -->
+  <div class="hero-parallax">
+    {% picture /index/bg_ItaliaCandele_dsvisualdesigner.png --preset default --img class="hero-bg-image"  alt="ItaliaCandele backgroud image" %}
+    <div class="px-4 py-5 my-5 text-center hero-content">
+    <h2 class="display-5 mb-5 fw-bold">Scegli il tuo abbonamento ideale</h2>
+    <div class="col-xl-8 mx-auto">
+      <div class="d-flex justify-content-center">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm" style="min-height: 350px;">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">QFlat30</h4>
+              </div>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h1 class="card-title pricing-card-title">20,00€<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li><i class="fa-solid fa-check"></i> Velocità in download fino a 30 Mbps</li>
+                    <li><i class="fa-solid fa-check"></i> Velocità in upload fino a 10 Mbps</li>
+                  </ul>
+                </div>
+                <a href="/tariffe/" class="w-100 btn btn-lg btn-custom-primary">
+                  Scopri di più
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary" style="min-height: 350px;">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">QFlat100</h4>
+              </div>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h1 class="card-title pricing-card-title">25,00€<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li><i class="fa-solid fa-check"></i> Velocità in download fino a 100 Mbps</li>
+                    <li><i class="fa-solid fa-check"></i> Velocità in upload fino a 20 Mbps</li>
+                  </ul>
+                </div>
+                <a href="/tariffe/" class="w-100 btn btn-lg btn-custom-primary">
+                  Scopri di più
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm" style="min-height: 350px;">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">QVOIP</h4>
+              </div>
+              <div class="card-body d-flex flex-column justify-content-between">
+                <div>
+                  <h1 class="card-title pricing-card-title">5,00€<small class="text-body-secondary fw-light">/mo</small></h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li><i class="fa-solid fa-check"></i> Chiamate illimitate</li>
+                    <li><i class="fa-solid fa-check"></i> Supporto a numeri virtuali</li>
+                  </ul>
+                </div>
+                <a href="/tariffe/" class="w-100 btn btn-lg btn-custom-primary">
+                  Scopri di più
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-- ESPERIENZA SECTION HOME ItaliaCandele -->
+<div class="hero-img-bg">
+{% picture /index/pattern-6.png --preset default --img class="hero-bg img-fluid"  alt="Sfondo experience ItaliaCandele" %}
+<div class="container px-4 pt-5">
+<div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+  <div class="col-10 col-sm-8 col-lg-6">
+    <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">Esperienza senza limiti con ItaliaCandele: I nostri vantaggi in primo piano!</h2>
+    <ul class="network-list list-unstyled">
+      <li class="mb-3">
+        <i class="fa-solid fa-check"></i>
+        <strong style="font-size: larger;">Connessione sicura e stabile</strong>
+        <br>Connessione sicura e stabile per proteggere i tuoi dati sensibili.
+      </li>
+      <li class="mb-3">
+        <i class="fa-solid fa-check"></i>
+        <strong style="font-size: larger;">Installazione rapida</strong>
+        <br>Installazione rapida e facile, senza necessità di cavi o lavori di scavo.
+      </li>
+      <li class="mb-3">
+        <i class="fa-solid fa-check"></i>
+        <strong style="font-size: larger;">Piani flessibili e opzioni di abbonamento</strong>
+        <br>Flessibilità di piani e opzioni di abbonamento per adattarsi alle tue esigenze di connessione e budget.
+      </li>
+      <li class="mb-3">
+        <i class="fa-solid fa-check"></i>
+        <strong style="font-size: larger;">Connessione senza limiti</strong>
+        <br>Possibilità di connettere simultaneamente più dispositivi senza perdita di velocità.
+      </li>
+    </ul>
+
+  </div>
+  <div class="col-lg-6 align-items-end">
+    {% picture /index/facility.png --preset default --img class="d-block mx-lg-auto img-fluid"  alt="Donna facility ItaliaCandele" %}
+  </div>
+</div>
+</div>
+</div>
+
+
+<!-- FUTURO SECTION HOME ItaliaCandele -->
+<div class="hero-img-bg">
+  {% picture /index/bg-future-dsvisualdesigner.jpg --preset default --img class="hero-bg img-fluid"  alt="Sfondo connessioni ItaliaCandele" %}
+  <div class="hero-overlay-white"></div>
+  <div class="container px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-5">La connessione al futuro: ItaliaCandele per una vita digitale di Qualità</h2>
+        <p>Hai mai desiderato una connessione Internet più veloce, stabile e affidabile per goderti appieno l'intrattenimento quotidiano e tutte le attività online? Con ItaliaCandele, la tua aspettativa diventa realtà.</p>
+        <p>streaming di film e serie TV in alta definizione a videochiamate senza interruzioni, dalle ricerche per lo studio alle sessioni di gaming online, la tua connessione Internet influenza ogni aspetto della tua vita digitale. Ed è per questo che la tua scelta conta.</p>
+        <p>Dai vita alle tue aspirazioni digitali con ItaliaCandele</p>
+        <a href="/tariffe/" class="btn btn-custom-primary btn-lg px-4 me-md-2">
+          Per saperne di più <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+      </div>
+      <div class="col-lg-6">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DISCOVER AREAS SECTION HOME ItaliaCandele -->
+<div class="px-4 py-5 text-center border-bottom">
+  <h2 class="display-4 fw-bold text-body-emphasis pb-5">Scopri le aree coperte dal nostro servizio</h2>
+  <div class="col-lg-6 mx-auto">
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+      <a href="/copertura/" class="btn btn-custom-primary btn-lg px-4 me-sm-3">
+        Verifica copertura <i class="fa-solid fa-house-signal"></i>
+      </a>
+    </div>
+  </div>
+</div>

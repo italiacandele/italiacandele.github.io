@@ -1,0 +1,189 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: ItaliaCandele - copertura
+permalink: /copertura/
+layout: default
+css: /assets/css/custom-copertura.css
+head-script: <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8edr-IHh4pm7VjEqCMropth_G5sYTxTw" data-usercentrics="Google Maps"></script>
+script: <script src="/assets/js/copertura.js"></script>
+---
+
+    <!-- HERO SECTION HOME ItaliaCandele -->
+    <div class="hero-100hv position-relative">
+      {% picture /index/Leonardo_Phoenix_09_Create_a_serene_and_inviting_hero_backgrou_1.jpg --preset default --img class="hero-bg img-fluid" alt="Sfondo copertura ItaliaCandele" %}
+      <div class="hero-overlay-black"></div>
+        <div class="container content col-xxl-8 px-4 py-5">
+              <div class="row align-items-center g-5 py-5">
+                  <div class="col-10 col-sm-8 col-lg-8">
+                      <h1 class="display-5 fw-bold text-white lh-1 mb-5">Copertura</h1>
+                      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                          <a href="#targetElement" type="button" class="btn btn-custom-secondary btn-lg px-4 me-md-2">la nostra rete <i class="fa-solid fa-wifi"></i></a>
+                      </div>
+                  </div>
+                  <div class="col-lg-4">
+                      <!-- Altra colonna vuota -->
+                  </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="container px-4 py-5 target-section">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <p>Siamo orgogliosi di offrire connessioni internet ad alta velocità e affidabili in diverse località del territorio calatino, garantendo una connessione stabile e veloce per le tue esigenze quotidiane.</p>
+          <p>Le Città coperte sono:</p>
+          <ul class="network-list list-unstyled">
+            <li class="mb-3">
+              <i class="fa-solid fa-location-dot"></i>
+              Licodia Eubea
+            </li>
+            <li class="mb-3">
+              <i class="fa-solid fa-location-dot"></i>
+              Grammichele
+            </li>
+            <li class="mb-3">
+              <i class="fa-solid fa-location-dot"></i>
+              Mazzarrone
+            </li>
+            <li class="mb-3">
+              <i class="fa-solid fa-location-dot"></i>
+              Mineo
+            </li>
+            <li class="mb-3">
+              <i class="fa-solid fa-location-dot"></i>
+              Vizzini
+            </li>
+            <li class="mb-3">
+              <i class="fa-solid fa-location-dot"></i>
+              Vizzini Scalo
+            </li>
+            <li class="mb-3">
+              <i class="fa-solid fa-location-dot"></i>
+              Pedalino
+            </li>
+          </ul>
+          <p>Inserisci il tuo indirizzo o seleziona la tua città dalla lista qui sotto per scoprire se la copertura di ItaliaCandele è disponibile nella tua zona.</p>
+          <p>Per qualsiasi domanda o assistenza riguardo alla copertura nella tua zona, non esitare a contattarci. Siamo qui per aiutarti a ottenere la migliore esperienza di connessione Wi-Fi possibile.</p>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-5 fw-bold lh-1 mb-3">
+            <span class="badge badge-custom">Naviga con ItaliaCandele</span><br><br>
+            Scopri le zone coperte dalla nostra rete
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="targetElement" class="hero-map vh-100 position-relative">
+      <div id="map" class="w-100 h-100"></div>
+        <!-- Pulsante in basso a destra -->
+  <a href="#contatti" class="btn-scroll-to-section position-absolute bottom-0 start-0 mb-4 ms-4 btn btn-lg btn-custom-secondary animate__animated animate__heartBeat animate__infinite">
+    Verifica la copertura
+  </a>
+    </div>
+
+
+<!-- ESPERIENZA SECTION HOME ItaliaCandele -->
+<div id="contatti" class="hero-img-bg">
+  {% picture /index/pattern-6.png --preset default --img class="hero-bg img-fluid"  alt="Sfondo experience ItaliaCandele" %}
+  <div class="container px-4 py-5">
+    <div class="row align-items-center g-5 pt-5">
+      <!-- Testo -->
+      <div class="col-12 col-lg-6 order-1 order-lg-1 align-items-end">
+        <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Verifica la copertura nella tua zona</h2>
+      </div>
+
+      <!-- Form -->
+      <div class="col-12 col-lg-6 order-2 order-lg-2">
+        <div class="bd-example m-0 border-0">
+          <!-- Form -->
+          <form class="row shadow g-3 bg-body-tertiary border rounded-3 px-5 py-5">
+            <!-- Nome -->
+            <div class="col-md-6">
+              <label for="validationNome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="validationNome" required>
+              <div class="invalid-feedback">Per favore, inserisci il tuo nome.</div>
+            </div>
+            <!-- Cognome -->
+            <div class="col-md-6">
+              <label for="validationCognome" class="form-label">Cognome</label>
+              <input type="text" class="form-control" id="validationCognome" required>
+              <div class="invalid-feedback">Per favore, inserisci il tuo cognome.</div>
+            </div>
+            <!-- Email -->
+            <div class="col-md-6">
+              <label for="validationEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="validationEmail" required>
+              <div class="invalid-feedback">Per favore, inserisci una email valida.</div>
+            </div>
+            <!-- Telefono -->
+            <div class="col-md-6">
+              <label for="validationTelefono" class="form-label">Telefono</label>
+              <input type="tel" class="form-control" id="validationTelefono" required>
+              <div class="invalid-feedback">Per favore, inserisci un numero di telefono valido.</div>
+            </div>
+            <!-- Indirizzo -->
+            <div class="col-md-6">
+              <label for="validationIndirizzo" class="form-label">Indirizzo</label>
+              <input type="text" class="form-control" id="validationIndirizzo" required>
+              <div class="invalid-feedback">Per favore, inserisci un indirizzo valido.</div>
+            </div>
+            <!-- Città -->
+            <div class="col-md-6">
+              <label for="validationCitta" class="form-label">Città</label>
+              <select class="form-select" id="validationCitta" required>
+                <option selected disabled value="">Scegli la tua città...</option>
+                <option value="Licodia Eubea">Licodia Eubea</option>
+                <option value="Grammichele">Grammichele</option>
+                <option value="Vizzini">Vizzini</option>
+                <option value="Vizzini Scalo">Vizzini Scalo</option>
+                <option value="Mazzarrone">Mazzarrone</option>
+                <option value="Mineo">Mineo</option>
+                <option value="Granieri">Granieri</option>
+                <option value="Pedalino">Pedalino</option>
+              </select>
+              <div class="invalid-feedback">Per favore, seleziona una città valida.</div>
+            </div>
+            <!-- Messaggio -->
+            <div class="col-12">
+              <label for="validationMessaggio" class="form-label">Messaggio</label>
+              <textarea class="form-control" id="validationMessaggio" rows="3" required></textarea>
+              <div class="invalid-feedback">Per favore, inserisci un messaggio.</div>
+            </div>
+            <!-- Ti trovi nel luogo in cui vuoi attivare la nostra linea? -->
+            <div class="col-12">
+              <label class="form-label mb-2">Ti trovi nel luogo in cui vuoi attivare la nostra linea?</label>
+              <div class="d-flex align-items-center gap-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="luogoSi" name="luogoLinea" value="yes" required>
+                  <label class="form-check-label" for="luogoSi">Sì</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="luogoNo" name="luogoLinea" value="no" required>
+                  <label class="form-check-label" for="luogoNo">No</label>
+                </div>
+              </div>
+              <div class="invalid-feedback">Per favore, seleziona un'opzione.</div>
+            </div>
+            <!-- Acconsento al trattamento dei dati -->
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="validationPrivacy" required>
+                <label class="form-check-label" for="validationPrivacy">
+                  Acconsento al trattamento dei miei dati e dichiaro di aver preso visione della Privacy Policy.
+                </label>
+                <div class="invalid-feedback">Devi accettare i termini prima di inviare il form.</div>
+              </div>
+            </div>
+            <!-- Pulsante di invio -->
+            <div class="col-12">
+              <button class="btn btn-lg btn-custom-primary fw-bold" type="submit">Invia</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
