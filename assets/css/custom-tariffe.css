@@ -1,7 +1,7 @@
 /* Hero Section */
 .hero-section-home {
   min-height: 100vh;
-  background: url('/assets/images/index/slider_ItaliaCandele_dsvisualdesigner-1.jpg') center / cover no-repeat;
+  background: url('/assets/images/assets/images/index/slider_ItaliaCandele_dsvisualdesigner-1.jpg') center / cover no-repeat;
   color: white;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@
 
 /* Hero Plans Section */
 .hero-plans-home {
-  background: url('/assets/images/index/bg_ItaliaCandele_dsvisualdesigner.png') #3e8add center / cover fixed;
+  background: url('/assets/images/assets/images/index/bg_ItaliaCandele_dsvisualdesigner.png') #3e8add center / cover fixed;
   color: white;
   display: flex;
   flex-direction: column;
@@ -69,14 +69,14 @@
 
 /* Hero Experience Section */
 .hero-experience-home {
-  background: url('/assets/images/index/pattern-6.png') center / cover no-repeat;
+  background: url('/assets/images/assets/images/index/pattern-6.png') center / cover no-repeat;
   display: flex;
   flex-direction: column;
 }
 
 /* Hero Future Section */
 .hero-future-home {
-  background: url('/assets/images/index/bg-future-dsvisualdesigner.jpg') rgba(255, 255, 255, 0.6) center / cover no-repeat;
+  background: url('/assets/images/assets/images/index/bg-future-dsvisualdesigner.jpg') rgba(255, 255, 255, 0.6) center / cover no-repeat;
   background-blend-mode: overlay;
   display: flex;
   flex-direction: column;
